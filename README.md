@@ -20,21 +20,6 @@ This project implements a 2D Kalman filter for tracking an object moving with a 
 x=\[x y vx​ vy​​\]  
 The code simulates a true trajectory and generates noisy measurements of the object's position. The Kalman filter then processes these noisy measurements to produce a smoothed estimate of the object's position and velocity.
 
-## **Files**
-
-* kalman\_filter\_2d.py: Contains the Python code for the 2D Kalman Filter implementation, including functions for simulating data and running the filter.  
-* README.md: This file, providing an overview of the project and instructions.
-
-## **How to Run**
-
-1. **Prerequisites:** Make sure you have Python installed, along with the numpy and matplotlib libraries. You can install them using pip:  
-   pip install numpy matplotlib
-
-2. **Save the code:** Save the content of the kalman\_filter\_2d.py immersive document as a file named kalman\_filter\_2d.py in a local directory.  
-3. **Run the script:** Open your terminal or command prompt, navigate to the directory where you saved the file, and run the script:  
-   python kalman\_filter\_2d.py
-
-This will execute the simulation and the Kalman filter, displaying two plots. To include these plots in this README, you will need to save them as image files (e.g., PNG) and then add the corresponding Markdown image links.
 
 ### **Expected Plots**
 
@@ -42,11 +27,7 @@ When you run the script, you will see the following plots:
 
 * **2D Position Estimation Plot:** This plot shows the trajectory of the true position, the noisy measurements, and the Kalman filter's estimated position in the 2D plane. You will see how the filter's estimate smooths out the noisy measurements and tracks the true path.
 
-![][image1]
-
 * **Kalman Gain and Uncertainty Plots:** This figure contains two subplots. The top subplot shows the Kalman Gain over time, indicating how much the filter relies on the new measurement versus its prediction. The bottom subplot shows the trace of the state covariance matrix (a measure of overall uncertainty) over time, demonstrating how the filter's uncertainty in its estimate changes as it incorporates more measurements.
-
-![][image2]
 
 **To include the actual plots:**
 
