@@ -1,4 +1,4 @@
-# **2D Kalman Filte**
+# **2D Kalman Filter**
 
 This repository contains a Python implementation of a 2D Kalman Filter, demonstrating how this powerful algorithm can be used to estimate the state of a system from noisy measurements. The code is based on the concepts explained in the excellent blog post ["How a Kalman filter works, in pictures"](https://bzarg.com/p/how-a-kalman-filter-works-in-pictures/) by Bzarg.
 
